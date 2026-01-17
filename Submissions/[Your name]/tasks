@@ -1,1 +1,105 @@
+[HTML]
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ZeroTheory</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Website heading -->
+    <h1>ZeroTheory</h1>
+
+    <!-- Navigation links -->
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Community</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+        <h2>From Zero to Infinite Ideas</h2>
+
+        <p>
+            ZeroTheory is a simple community website where people
+            share ideas, thoughts, and creativity.
+        </p>
+
+        <!-- Button -->
+        <button onclick="join()">Join Now</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 ZeroTheory
+    </div>
+
+    <!-- Linking JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+[CSS]
+/* Basic page style */
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    color: #38bdf8;
+    margin-top: 20px;
+}
+
+/* Menu bar */
+.menu {
+    margin: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+}
+
+/* Main section */
+.main {
+    margin-top: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #38bdf8;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0ea5e9;
+}
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+    color: #9ca3af;
+}
+
+[JAVA]
+function join() {
+    alert("Welcome to ZeroTheory!");
+}
+
 
