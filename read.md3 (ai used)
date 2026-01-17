@@ -1,0 +1,11 @@
+HTML
+
+This HTML program creates a simple webpage for a site called ZeroTheory. It starts by defining the structure of the page using HTML tags. In the <head> section, the title of the webpage is set, and an external CSS file (style.css) is linked to control how the page looks (colors, layout, fonts, etc.). Inside the <body>, the main content is displayed: a heading showing the website name, a navigation menu with links like Home, About, Community, and Contact, and a main section that introduces ZeroTheory with a slogan and a short description. There is also a “Join Now” button, which calls a JavaScript function named join() when clicked—this function is written in the script.js file and can show a message or perform an action. At the bottom, a footer displays the copyright text. Overall, HTML builds the structure, CSS designs the appearance, and JavaScript adds interactivity to the webpage.
+
+CSS
+
+This CSS program controls how the ZeroTheory webpage looks and feels. It first styles the whole page by giving the background a dark blue color, setting the text color to white, choosing a simple font, and centering all text. The main heading is styled with a light blue color and some space at the top to make it stand out. The menu section adds spacing around the navigation links, while the links themselves are styled to appear clean without underlines and change color when the user moves the mouse over them. The main content area is pushed down to create a balanced layout. The button is designed with padding, a bright blue background, and a pointer cursor, and it changes color on hover to show interactivity. Finally, the footer text is spaced far from the main content and given a lighter gray color so it looks subtle and less prominent.
+
+JAVA
+
+This JavaScript program defines a simple function called join() that runs when it is triggered, such as by clicking a button on the webpage. Inside the function, the alert() command is used to display a pop-up message on the screen. When the function is called, the browser immediately shows a small dialog box with the text “Welcome to ZeroTheory!”, and the user must click “OK” to close it. This adds basic interactivity to the website by giving instant feedback to the user when they click the Join Now button
