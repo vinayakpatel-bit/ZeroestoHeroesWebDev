@@ -1,0 +1,7 @@
+let number = 10; // You can use "10" (string) or 10 (number)
+
+if (number % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
